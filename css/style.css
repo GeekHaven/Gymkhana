@@ -1259,7 +1259,7 @@ input[type="password"] {
 
 .desc-comp-offer-cont {
     margin-bottom: 10px;
-    box-shadow: 3px 3px 10px 1px rgba(158, 158, 158, 0.68);
+    box-shadow: 1px 1px 7px 0px rgba(158, 158, 158, 0.68);
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1321,19 +1321,21 @@ input[type="password"] {
 }
 
 .desc-comp-offer-cont a {
+    /* padding: 0px 10px; */
+}
+.to_website {
     padding: 0px 10px;
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
     #comp-offer {
         margin-left: 10px;
     }
 
-    #comp-offer .col-md-3:first-child {
+    /* #comp-offer .col-md-3:first-child {
         -ms-flex: 0 0 90%;
         flex: 0 0 90%;
         max-width: 90% !important;
-    }
+    } */
 
     #comp-offer .col-md-3 {
         -ms-flex: 0 0 33%;
@@ -1835,7 +1837,14 @@ address.address-details-f a {
     float: left;
     margin: 10px;
 }
-
+.footer-img {
+    top: -25px;
+}
+@media (max-width: 768px) {
+    .footer-img {
+        top: -0px;
+    }
+}
 /*footer bottom*/
 
 #footer-bottom {
