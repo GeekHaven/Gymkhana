@@ -642,7 +642,7 @@ header .topmenu .top-data li a.log-top:hover {
 }
 
 .carousel-fade .carousel-inner .carousel-item.active .hero {
-    opacity: 1;
+    opacity: 0.8;
     -webkit-transition: 2s all ease-in-out 0.1s;
     -moz-transition: 2s all ease-in-out 0.1s;
     -ms-transition: 2s all ease-in-out 0.1s;
