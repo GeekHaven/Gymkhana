@@ -28,11 +28,18 @@ html,
 body {
     /* height: 100%; */
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
     font-family: "Hind", sans-serif;
     background-color: #212020;
+}
+
+footer {
+    justify-self: flex-end;
+    margin-top: auto;
 }
 
 h1,
@@ -1721,9 +1728,7 @@ input[type="password"] {
 .footer-s1 .footer {
     padding: 50px 0 0 0;
     background: #2e2a2a;
-    position: sticky;
     width: 100%;
-    bottom: 0;
 }
 
 .footer-s1 .footer .comp-desc-f p {
