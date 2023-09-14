@@ -1168,6 +1168,11 @@ input[type="password"] {
     font-size: 14px;
 }
 
+.row {
+    padding: 5px;
+    margin: 25px;
+}
+
 @media (max-width: 767px) {
     .story-descb {
         padding: 10px 10px 30px 10px;
